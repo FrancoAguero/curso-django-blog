@@ -1,2 +1,2 @@
 relese: python manager.py migrate
-web: gunicorn Blog.wsgipip
+web: gunicorn blog.wsgipip

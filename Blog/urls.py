@@ -11,9 +11,9 @@ from comments.api.router import router_comments
 
 schema_view = get_schema_view(
   openapi.Info(
-    title="Blog",
+    title="blog",
     default_version='v1',
-    description="Documentacion de la API del Blog",
+    description="Documentacion de la API del blog",
     terms_of_service="https://www.google.com/policies/terms/",
     contact=openapi.Contact(email="contact@snippets.local"),
     license=openapi.License(name="BSD License"),
